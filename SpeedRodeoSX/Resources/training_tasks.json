@@ -1,0 +1,942 @@
+[
+    {
+        "id": "task_001",
+        "title": "Horse Warm-Up Sequence",
+        "difficulty": "Beginner",
+        "durationMinutes": 15,
+        "category": "Conditioning",
+        "description": "Master the essential warm-up protocol that prepares a racehorse's muscles, tendons, and cardiovascular system for training. A proper warm-up reduces injury risk by up to 60% and improves subsequent performance quality.",
+        "rewardPoints": 100,
+        "steps": [
+            {
+                "id": "t01s01",
+                "stepNumber": 1,
+                "title": "Walk Phase – 5 Minutes",
+                "instruction": "Lead the horse at a brisk walk on a loose rein for five minutes. Ensure the horse's neck is relaxed and its stride is free and swinging. This phase warms connective tissues gradually without placing anaerobic demands on the cardiovascular system.",
+                "tip": "Watch for short, stilted steps — this may indicate stiffness that requires additional low-intensity walking before progressing.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t01s02",
+                "stepNumber": 2,
+                "title": "Identify Warm-Up Goal",
+                "instruction": "Before moving to trot work, identify and confirm the session goal. Is today aerobic base building, speed work, or a recovery hack? The warm-up intensity must correspond with what follows.",
+                "tip": "A speed work session needs a longer, more progressive warm-up than a light recovery canter.",
+                "isQuiz": true,
+                "quizQuestion": "What is the minimum walk warm-up duration recommended before trotting for a healthy Thoroughbred?",
+                "quizOptions": [
+                    "1 minute",
+                    "3 minutes",
+                    "5 minutes",
+                    "10 minutes"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t01s03",
+                "stepNumber": 3,
+                "title": "Trot Phase – 3 Minutes",
+                "instruction": "Transition to an active working trot, allowing the horse to stretch through its back and engage its hindquarters. Maintain rhythmic contact without restriction. The heart rate should rise to approximately 100–120 bpm.",
+                "tip": "A horse that rushes into trot may be anticipating hard work. Slow, rhythmic trot builds better training habits.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t01s04",
+                "stepNumber": 4,
+                "title": "Canter Transition",
+                "instruction": "Ask for canter on the correct lead. A smooth, balanced transition indicates the horse is sufficiently warmed. The first canter should be a light, collected pace — not the working gallop speed of the main session.",
+                "tip": "Disunited canter — cross-cantering — can indicate one-sided stiffness or lameness. Return to trot and re-evaluate.",
+                "isQuiz": true,
+                "quizQuestion": "What does a disunited canter most often indicate?",
+                "quizOptions": [
+                    "Correct warm-up",
+                    "One-sided stiffness or potential lameness",
+                    "Excessive fitness",
+                    "Hunger"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t01s05",
+                "stepNumber": 5,
+                "title": "Leg Check",
+                "instruction": "After the initial canter circle, halt and run your hands down each leg from the knee to the fetlock. Feel for unusual heat, filling, or sensitivity. This quick check takes 60 seconds but can catch early injury signs before they worsen.",
+                "tip": "Both front legs should feel cool and tight. Asymmetric heat in one leg warrants investigation before proceeding.",
+                "isQuiz": true,
+                "quizQuestion": "What does abnormal heat in one front leg during warm-up most likely suggest?",
+                "quizOptions": [
+                    "Normal variation",
+                    "Good muscle development",
+                    "Possible soft tissue stress or inflammation",
+                    "Track surface effect"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t01s06",
+                "stepNumber": 6,
+                "title": "Progressive Build to Work Pace",
+                "instruction": "Gradually increase the canter pace over two progressive circuits — increasing energy every half-circle until the horse is fully engaged and at working training pace. Only now should the primary session content begin.",
+                "tip": "A total warm-up of 10–15 minutes before speed work is the scientifically validated minimum for injury prevention.",
+                "isQuiz": true,
+                "quizQuestion": "What is the correct sequence for the warm-up phases?",
+                "quizOptions": [
+                    "Gallop → Trot → Walk",
+                    "Walk → Trot → Canter → Build",
+                    "Canter → Walk → Trot",
+                    "Trot → Walk → Gallop"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    },
+    {
+        "id": "task_002",
+        "title": "Stable Preparation Protocol",
+        "difficulty": "Beginner",
+        "durationMinutes": 20,
+        "category": "Stable Management",
+        "description": "Learn the systematic approach to preparing a stable for a racehorse in training. Proper stable preparation directly impacts the horse's rest quality, respiratory health, and recovery speed — all essential to race-day performance.",
+        "rewardPoints": 100,
+        "steps": [
+            {
+                "id": "t02s01",
+                "stepNumber": 1,
+                "title": "Morning Inspection",
+                "instruction": "Enter the stable and observe the horse's general attitude, appetite, and manure without touching the horse first. Note any unusual behaviors such as box walking, lack of appetite, or excessive sweating.",
+                "tip": "A horse that didn't eat overnight is telling you something important. Never dismiss this signal.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t02s02",
+                "stepNumber": 2,
+                "title": "Mucking Out Technique",
+                "instruction": "Remove all soiled bedding and manure systematically, working from back to front. Skip (shake) remaining clean bedding to remove fines and ammonia-laden particles. Ensure no soiled material remains behind the door or in corners.",
+                "tip": "Ammonia from decomposing urine at stable floor level directly damages equine lung tissue. Thorough daily mucking is not optional.",
+                "isQuiz": true,
+                "quizQuestion": "Why is thorough daily mucking out critical for a racehorse's health?",
+                "quizOptions": [
+                    "For odor management only",
+                    "To prevent ammonia from damaging respiratory tissue",
+                    "To reduce feed costs",
+                    "Purely for aesthetics"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t02s03",
+                "stepNumber": 3,
+                "title": "Bedding Selection and Application",
+                "instruction": "Apply fresh bedding material — dust-extracted shavings or straw — in a bank pattern: thick banks around the walls for insulation and injury prevention, and a central working area of adequate depth to cushion standing and lying.",
+                "tip": "Banks prevent horses from becoming 'cast' — stuck against the wall when rolling — a common stable injury source.",
+                "isQuiz": true,
+                "quizQuestion": "What is the primary purpose of banked bedding around stable walls?",
+                "quizOptions": [
+                    "Aesthetic appearance",
+                    "Reduce bedding use",
+                    "Prevent horses from becoming cast and reduce injury risk",
+                    "Improve ventilation"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t02s04",
+                "stepNumber": 4,
+                "title": "Water Supply Check",
+                "instruction": "Empty, clean, and refill the water source — whether bucket or automatic drinker. A clean, full water supply is the most basic recovery tool available. Racehorses in training should drink 50–80 liters daily.",
+                "tip": "Horses drinking less than their normal volume may be developing illness, dental pain, or digestive discomfort.",
+                "isQuiz": true,
+                "quizQuestion": "What is the typical daily water consumption of a racehorse in active training?",
+                "quizOptions": [
+                    "10–20 liters",
+                    "30–40 liters",
+                    "50–80 liters",
+                    "Over 100 liters"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t02s05",
+                "stepNumber": 5,
+                "title": "Ventilation Assessment",
+                "instruction": "Open or adjust top doors, windows, and vents to achieve maximum fresh airflow without creating a draft at horse level. Use a candle or smoke match to verify airflow direction near the bedding surface if in doubt.",
+                "tip": "A horse's lung health is the engine of its racing career. Never compromise ventilation for comfort or convenience.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t02s06",
+                "stepNumber": 6,
+                "title": "Final Setup and Hay Distribution",
+                "instruction": "Distribute fresh hay in the hay net or rack at an appropriate height — ideally at the horse's normal head posture level with forelimbs on the ground. This position supports natural drainage of the respiratory tract and promotes healthy nasal passage clearing.",
+                "tip": "Feeding hay at ground level is often preferred by horses as it mimics natural grazing posture, but height management may depend on individual horses' breathing preferences.",
+                "isQuiz": true,
+                "quizQuestion": "Why is the height of the hay net important for respiratory health?",
+                "quizOptions": [
+                    "It affects how much the horse eats",
+                    "It maintains natural head position that supports respiratory tract drainage",
+                    "It prevents colic",
+                    "It helps digestion speed"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    },
+    {
+        "id": "task_003",
+        "title": "Saddle Equipment Check",
+        "difficulty": "Intermediate",
+        "durationMinutes": 25,
+        "category": "Equipment",
+        "description": "A systematic equipment inspection ensures rider safety and horse comfort during every training session. Equipment failure at racing speed carries severe consequences — this protocol eliminates preventable risks.",
+        "rewardPoints": 150,
+        "steps": [
+            {
+                "id": "t03s01",
+                "stepNumber": 1,
+                "title": "Saddle Tree Integrity",
+                "instruction": "Place the saddle on your knee and apply firm pressure to both panels simultaneously. Check for any creaking, asymmetry, or flex in the tree. A broken tree is invisible from the exterior but creates dangerous pressure points on the horse's spine.",
+                "tip": "Saddle tree failures often occur gradually. Establish a baseline feel so subtle changes become detectable over time.",
+                "isQuiz": true,
+                "quizQuestion": "What is the most dangerous result of an undetected broken saddle tree?",
+                "quizOptions": [
+                    "Reduced aesthetics",
+                    "Seat discomfort for the rider",
+                    "Dangerous concentrated pressure points on the horse's spine",
+                    "Increased saddle weight"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t03s02",
+                "stepNumber": 2,
+                "title": "Girth and Billets Inspection",
+                "instruction": "Examine all girth billets for cuts, stretch marks, or loose stitching. Test each billet by pulling with approximately 20kg of force. Check girth elastics for loss of rebound and buckle teeth for wear that may allow slippage.",
+                "tip": "A failing billet typically shows surface cracking or stiffness before complete failure. Replace immediately on first sign of damage.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t03s03",
+                "stepNumber": 3,
+                "title": "Stirrup Leather Check",
+                "instruction": "Inspect both stirrup leathers at every stitch line, checking for wear at the buckle holes and along the leather surface. Verify the run-out mechanism functions correctly, allowing the iron to release in a fall. Test both bars with significant lateral pressure.",
+                "tip": "Wear at buckle holes often concentrates at one or two holes rather than evenly — check each hole individually.",
+                "isQuiz": true,
+                "quizQuestion": "Why must the stirrup bar run-out mechanism function correctly?",
+                "quizOptions": [
+                    "To adjust stirrup length easily",
+                    "To allow the iron to release and prevent dragging a fallen rider",
+                    "To reduce saddle weight",
+                    "To improve aesthetics"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t03s04",
+                "stepNumber": 4,
+                "title": "Bridle and Bit Assessment",
+                "instruction": "Disassemble the bridle to assess every stitched joint individually. Check the bit for sharp edges by carefully running a gloved finger across the mouthpiece. Verify keepers are intact and nosebands are adjusted within legal and welfare guidelines.",
+                "tip": "A sharp bit edge or broken mouthpiece can cause mouth injury that negatively impacts performance and creates behavioral resistance.",
+                "isQuiz": true,
+                "quizQuestion": "What should you check on a bit before every training session?",
+                "quizOptions": [
+                    "Color and polish",
+                    "Sharp edges on the mouthpiece",
+                    "Brand name",
+                    "Weight compared to other bits"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t03s05",
+                "stepNumber": 5,
+                "title": "Saddle Fit on the Horse",
+                "instruction": "Place the saddle without numnahs first and check the clearance over the withers (minimum 3 fingers), panel contact evenness, and freedom of shoulder rotation. The saddle should not rock forward-to-back when pressed at the cantle.",
+                "tip": "Fit changes as horses gain or lose muscle condition during training. Check regularly — not just at the start of the season.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t03s06",
+                "stepNumber": 6,
+                "title": "Final Tacking Up Sequence",
+                "instruction": "Tack up in the correct sequence: saddle placed quietly from the near side, girth attached gradually in three progressive steps (not at once), bridle fitted carefully with bit positioned correctly on the bars of the mouth before riding off.",
+                "tip": "Pulling the girth up to full tightness at once causes tension and anticipatory back muscle guarding. Always tighten gradually.",
+                "isQuiz": true,
+                "quizQuestion": "Why should the girth be tightened in progressive stages rather than all at once?",
+                "quizOptions": [
+                    "To save time",
+                    "Tradition only",
+                    "To prevent back muscle tension and behavioral resistance",
+                    "To protect the girth material"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    },
+    {
+        "id": "task_004",
+        "title": "Jockey Balance Practice",
+        "difficulty": "Advanced",
+        "durationMinutes": 30,
+        "category": "Rider Skills",
+        "description": "Elite jockey balance is the invisible skill that separates good from great. This training sequence develops the core stability, proprioception, and leg independence that allow a rider to remain still and balanced at 40 miles per hour.",
+        "rewardPoints": 200,
+        "steps": [
+            {
+                "id": "t04s01",
+                "stepNumber": 1,
+                "title": "Two-Point Balance Drill",
+                "instruction": "Adopt the racing crouch position: shorten stirrups 4–6 holes above normal length, rise from the saddle into the half-seat, and maintain contact with the horse's back through softly bent knees only. Hold for progressive intervals: 30 seconds, then 60, then 90.",
+                "tip": "Core bracing, not gripping with the legs, is what creates stillness in the two-point position. Gripping creates tension that disrupts the horse.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t04s02",
+                "stepNumber": 2,
+                "title": "Posting Trot without Stirrups",
+                "instruction": "Remove the stirrups and rising trot for a minimum of five consistent minutes. This exercise develops the independent seat — the ability to remain balanced through leg movement alone — that professional jockeys rely on when stirrups are lost in a race.",
+                "tip": "This is difficult and fatiguing. Stop if hip flexor cramp signals loss of postural control — continue with degraded form builds poor habits.",
+                "isQuiz": true,
+                "quizQuestion": "What primary skill does no-stirrup trotting develop in a jockey?",
+                "quizOptions": [
+                    "Leg strength only",
+                    "Independent seat and balance without stirrup reliance",
+                    "Hand position",
+                    "Rein contact"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t04s03",
+                "stepNumber": 3,
+                "title": "Arm Circle Balance Test",
+                "instruction": "At a steady canter, extend both arms horizontally and perform slow arm circles without allowing the body to rotate at the hips. Any hip rotation indicates that upper body movement is compensating for insufficient core stability.",
+                "tip": "Film this exercise from behind — asymmetric circles reveal the dominant side that requires additional stabilization training.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t04s04",
+                "stepNumber": 4,
+                "title": "Single-Leg Stirrup Balance",
+                "instruction": "With one foot out of the stirrup, maintain the two-point position around one complete circuit. Alternate sides. This exercise simulates the unilateral loading that occurs when a horse stumbles or drifts — the moment when asymmetric balance determines whether a jockey stays aboard.",
+                "tip": "The foot that wants to come out of position is always the weaker side. Address this specifically in flat fitness training.",
+                "isQuiz": true,
+                "quizQuestion": "What does asymmetry in the single-leg stirrup balance drill indicate?",
+                "quizOptions": [
+                    "Normal variation",
+                    "The dominant side requiring targeted strengthening of the weaker side",
+                    "Poor stirrup leather quality",
+                    "Saddle imbalance only"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t04s05",
+                "stepNumber": 5,
+                "title": "Hand Position Independence",
+                "instruction": "Place the reins in one hand and use the free hand to touch the horse's neck, ear, or withers without changing body position or influencing the horse's pace. Repeat with the other hand. Elite jockeys must use one hand during whip use without body lean.",
+                "tip": "Any change in pace when one hand works independently indicates over-reliance on rein contact for balance rather than core stability.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t04s06",
+                "stepNumber": 6,
+                "title": "Full Gallop Position Hold",
+                "instruction": "During the final gallop interval of the session, maintain the full racing crouch for the entire effort without adjusting hand height, body lean, or leg position. Trainers should film from the side to evaluate consistency of the position from start to finish of the effort.",
+                "tip": "Losing the racing position in the final furlong of a gallop mirrors the fatigue pattern of the final stages of a real race — this is precisely the moment the technique must be most reliable.",
+                "isQuiz": true,
+                "quizQuestion": "Why is maintaining racing position during the final gallop interval specifically important?",
+                "quizOptions": [
+                    "It looks better on film",
+                    "It mirrors the fatigue pattern of a real race final, building crucial habit reliability",
+                    "It is easier due to momentum",
+                    "It reduces race time by 1 second"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    },
+    {
+        "id": "task_005",
+        "title": "Track Analysis Protocol",
+        "difficulty": "Intermediate",
+        "durationMinutes": 20,
+        "category": "Race Strategy",
+        "description": "Learn to read a racetrack before the race begins — identifying surface bias, optimal touring line, potential trouble spots, and how gate position interacts with the specific geometry of the course.",
+        "rewardPoints": 150,
+        "steps": [
+            {
+                "id": "t05s01",
+                "stepNumber": 1,
+                "title": "Walk the Course",
+                "instruction": "Walk the racing surface on foot from the inside rail to the outer rail at four points: the start, first bend, halfway point, and home turn. Note variations in surface texture, moisture, and firmness at each location.",
+                "tip": "The 'golden path' — the driest, firmest racing lane — is often not at the rail and changes with weather and usage patterns.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t05s02",
+                "stepNumber": 2,
+                "title": "Identify Track Bias",
+                "instruction": "Review the previous day's race results and note whether winners tended to come from inside, outside, front, or back. A consistent pattern across multiple races indicates a track bias that may persist. Factor this into pace and position planning.",
+                "tip": "A strong rail bias on a dirt track can be worth 3-4 lengths per mile. Identifying this early is enormous competitive advantage.",
+                "isQuiz": true,
+                "quizQuestion": "What does identifying a 'rail bias' in previous race results mean practically?",
+                "quizOptions": [
+                    "The track is damaged",
+                    "Horses on the inside rail consistently performed better, suggesting a positional advantage",
+                    "The judges are biased",
+                    "The rail needs maintenance"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t05s03",
+                "stepNumber": 3,
+                "title": "Map the Optimal Racing Line",
+                "instruction": "Based on surface assessment and bias data, identify the theoretical optimal racing line for your horse's running style. A front runner needs the shortest path and best footing early. A closer needs to identify where the pace will begin to tire front runners.",
+                "tip": "The optimal line for a front runner differs completely from the optimal line for a closer on the same track on the same day.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t05s04",
+                "stepNumber": 4,
+                "title": "Assess Cambered Turns",
+                "instruction": "On banked turn sections, assess whether the banking is symmetric or if one side sits higher. A correctly banked turn assists inside-rail horses. An improperly banked section creates a disadvantage for specific positions and may cause uneven loading of the horse's outside limbs.",
+                "tip": "Significant asymmetric banking is detectable even at a slow walk if you consciously focus on your own balance while walking the curve.",
+                "isQuiz": true,
+                "quizQuestion": "What effect does correct camber (banking) on a turn have for inside-rail horses?",
+                "quizOptions": [
+                    "It increases wind resistance",
+                    "It assists the turn by using gravity, reducing centrifugal loading",
+                    "It makes the turn longer",
+                    "It creates a disadvantage"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t05s05",
+                "stepNumber": 5,
+                "title": "Identify Trouble Spots",
+                "instruction": "Note any areas of consistent churning, wet patches, or surface irregularity that emerge near the inside rail at high-traffic zones (typically the inside of bends after multiple races). These are zones where a horse could lose footing or suffer disruption.",
+                "tip": "The inside of the second bend often deteriorates most rapidly during a race program. Knowing this in advance determines whether to track wide during the home turn.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t05s06",
+                "stepNumber": 6,
+                "title": "Race Position Planning",
+                "instruction": "Based on all gathered information, write a simple race position plan: target gate number for the ideal draw, desired position in the first 200m, intended running lane through each bend, and the point at which the jockey begins the final run. Share this briefing with the jockey before the race.",
+                "tip": "A well-briefed jockey making a plan-based decision runs at 70% of the information needed. An unbriefed jockey in a fast race is reacting at 100% reactivity, which is cognitively exhausting and prone to error.",
+                "isQuiz": true,
+                "quizQuestion": "What is the primary benefit of a pre-race written position plan for a jockey?",
+                "quizOptions": [
+                    "It's legally mandatory",
+                    "It replaces race-day skill",
+                    "It reduces cognitive load during the race by establishing a pre-agreed framework for decisions",
+                    "It guarantees a win"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    },
+    {
+        "id": "task_006",
+        "title": "Race Start Reaction Training",
+        "difficulty": "Advanced",
+        "durationMinutes": 35,
+        "category": "Race Preparation",
+        "description": "The ability to react perfectly to a starting gate opening separates champions from near-misses. This training sequence sharpens both horse and rider's gate break reflexes using progressive simulation drills.",
+        "rewardPoints": 200,
+        "steps": [
+            {
+                "id": "t06s01",
+                "stepNumber": 1,
+                "title": "Gate Standing Practice",
+                "instruction": "Load the horse quietly into the gate stall and allow it to stand completely still for progressive durations: 15 seconds, then 30, then 60. The horse must relax in the stall — not fidget or push against the front gate. Reward with calm voice and light pat when still.",
+                "tip": "A horse that is tense in the stall loses kinetic energy before the break even begins. Relaxed stall behavior correlates directly with faster breakaway times.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t06s02",
+                "stepNumber": 2,
+                "title": "Weight Transfer Position",
+                "instruction": "Teach the horse to load weight slightly onto the hindquarters in the stall — not leaning onto the front gate. This 'coiled' position allows immediate explosive forward launch when the gate opens rather than a forward recovery step followed by drive.",
+                "tip": "A horse loaded forward into the front gate must first move its center of mass backward before moving forward — losing precious milliseconds compared to a balanced, coiled horse.",
+                "isQuiz": true,
+                "quizQuestion": "Why is it important for a horse to be balanced — not leaning on the front gate — in the starting stall?",
+                "quizOptions": [
+                    "It prevents gate damage",
+                    "A balanced horse can launch forward immediately; leaning horses lose time moving backward first",
+                    "It looks calmer",
+                    "It reduces jockey work"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t06s03",
+                "stepNumber": 3,
+                "title": "Jockey Trigger Response Drill",
+                "instruction": "With the horse in the stall, the jockey practices minimizing body movement in the moment of gate opening — pulling arms back fractionally, allowing the horse to push through without restriction. Drill this identical response until it becomes fully automatic.",
+                "tip": "Any tensing of the jockey's arms at gate opening restricts the horse's neck extension exactly at the moment maximum extension produces maximum power.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t06s04",
+                "stepNumber": 4,
+                "title": "Half-Gate Practice Breaks",
+                "instruction": "Open the gate from the walk and allow the horse to canter out for 100 meters before pulling up. Repeat four times. This builds positive association with the gate opening stimulus and confirms the horse's confidence in the immediate post-break acceleration.",
+                "tip": "Never drill poor gate breaks repeatedly — if a horse mis-steps twice in a session, end the gate work and address the physical or behavioral cause.",
+                "isQuiz": true,
+                "quizQuestion": "How many poor gate breaks should a trainer tolerate before ending a gate drilling session?",
+                "quizOptions": [
+                    "Up to 5",
+                    "Up to 10",
+                    "No limit if trying to fix the issue",
+                    "Stop after 2 and investigate the cause"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "id": "t06s05",
+                "stepNumber": 5,
+                "title": "Full Simulation Break",
+                "instruction": "Load into the full gate setup, wait for a random start signal rather than a predictable countdown, and execute a full race-speed break for 200 meters. The randomized timing develops true reaction rather than anticipation.",
+                "tip": "Horses that learn to anticipate a countdown can actually slow down after the expected moment passes, costing time if the actual signal is delayed. Random timing tests genuine alertness.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t06s06",
+                "stepNumber": 6,
+                "title": "Video Analysis",
+                "instruction": "Review high-speed video of the gate break from a head-on and side angle. Measure the frame-count from gate opening to the horse's first full stride. Compare to the target of reaching full stride within 1.5 seconds. Identify any hesitation frames and address them in the next session.",
+                "tip": "Elite Thoroughbreds reach first full stride in under 0.8 seconds. Training horses consistently to 1.0–1.5 seconds is achievable with systematic practice and represents a meaningful competitive improvement.",
+                "isQuiz": true,
+                "quizQuestion": "What is the target time from gate opening to first full stride for an elite Thoroughbred?",
+                "quizOptions": [
+                    "Under 3 seconds",
+                    "Under 2 seconds",
+                    "Under 0.8 seconds",
+                    "Under 5 seconds"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    },
+    {
+        "id": "task_007",
+        "title": "Post-Race Recovery Protocol",
+        "difficulty": "Beginner",
+        "durationMinutes": 18,
+        "category": "Recovery",
+        "description": "What happens in the 60 minutes after a race determines how quickly a horse recovers and when it can next perform at full capacity. This protocol guides the critical immediate post-race care sequence.",
+        "rewardPoints": 100,
+        "steps": [
+            {
+                "id": "t07s01",
+                "stepNumber": 1,
+                "title": "Immediate Untacking",
+                "instruction": "Remove the saddle immediately after returning from the track. Release the girth pressure slowly and check the back symmetrically for sweat accumulation and muscle tension. Cold hosing of the back should begin within 2 minutes of arriving in the unsaddling enclosure.",
+                "tip": "Saddle pressure during a race temporarily compresses superficial vessels. Immediate removal allows rapid re-perfusion and aids muscle waste product clearance.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t07s02",
+                "stepNumber": 2,
+                "title": "Heart Rate Monitoring",
+                "instruction": "Attach the heart rate monitor and record the initial post-race reading, then monitor recovery at 2, 5, and 10 minutes. Rate should fall below 100 bpm within 5 minutes in a fit horse. Elevated rate at 10 minutes warrants veterinary consultation.",
+                "tip": "Heart rate recovery speed is one of the most reliable markers of current cardiovascular fitness. Log it after every race and training session to track seasonal fitness trends.",
+                "isQuiz": true,
+                "quizQuestion": "What heart rate reading 10 minutes after a race warrants veterinary attention?",
+                "quizOptions": [
+                    "Rate above 100 bpm",
+                    "Rate below 60 bpm",
+                    "Rate at exactly 80 bpm",
+                    "Any rate variation"
+                ],
+                "correctAnswer": 0
+            },
+            {
+                "id": "t07s03",
+                "stepNumber": 3,
+                "title": "Cooling and Washing",
+                "instruction": "Wash the horse thoroughly with cool water (not ice cold) working from the legs upward. Scrape excess water and repeat. Focus hosing time on the jugular vein groove on the neck and the large muscle masses of the hindquarters where heat is most concentrated.",
+                "tip": "The jugular vein carries blood directly from the brain — cooling this area accelerates core temperature reduction faster than hosing flanks and sides.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t07s04",
+                "stepNumber": 4,
+                "title": "Electrolyte Administration",
+                "instruction": "Administer an electrolyte paste or solution within 30 minutes of the race. Calculate replacement needs based on sweat volume — a hard race effort may require 5+ grams of sodium, 3+ grams of potassium, and 1+ gram of calcium replacement.",
+                "tip": "Administering electrolytes without making water freely available immediately after is counterproductive — the drive to drink created by electrolytes must be able to fulfill itself.",
+                "isQuiz": true,
+                "quizQuestion": "What must always be available immediately after administering electrolytes?",
+                "quizOptions": [
+                    "High-energy grain feed",
+                    "Free access to water",
+                    "Additional electrolyte doses",
+                    "Cold hosing"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t07s05",
+                "stepNumber": 5,
+                "title": "Leg Examination",
+                "instruction": "Run both hands down all four legs once the horse is cool and dry. Check for fresh heat, filling, or sensitivity not present at pre-race examination. Veterinary evaluation is warranted for any new finding, as early intervention prevents progression of minor stress lesions.",
+                "tip": "Post-race leg examination should always be compared directly to the pre-race baseline. Working from memory is insufficiently precise — keep written records.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t07s06",
+                "stepNumber": 6,
+                "title": "Return to Stable and Night Feed",
+                "instruction": "Allow the horse 30 minutes of quiet in-hand walking before returning to the stable. Provide a small hay net and offer water immediately. Do not provide a large grain feed for at least 2 hours, as digestive stress post-race reduces gastric absorption efficiency.",
+                "tip": "A horse that walks actively and shows bright-eyed interest in its surroundings during the cooling walk has recovered well. A dull, reluctant walker requires careful monitoring.",
+                "isQuiz": true,
+                "quizQuestion": "How long should you wait after a race before providing a large grain feed?",
+                "quizOptions": [
+                    "15 minutes",
+                    "30 minutes",
+                    "At least 2 hours",
+                    "Next morning only"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    },
+    {
+        "id": "task_008",
+        "title": "Nutrition Planning Session",
+        "difficulty": "Intermediate",
+        "durationMinutes": 22,
+        "category": "Nutrition",
+        "description": "Build a complete 7-day nutrition plan for a horse in peak training phase, applying the principles of forage-first feeding, precise energy calibration, and timed supplementation.",
+        "rewardPoints": 150,
+        "steps": [
+            {
+                "id": "t08s01",
+                "stepNumber": 1,
+                "title": "Calculate Baseline Energy Requirement",
+                "instruction": "Using bodyweight (assume 540 kg Thoroughbred in hard training), calculate daily digestible energy requirement: maintenance (70 MJ/day) plus training adjustment (+40% = ~98 MJ/day total). This baseline determines every feeding decision that follows.",
+                "tip": "Energy calculation is a starting point, not a rigid prescription. Monthly bodyweight tracking adjusts the plan as the horse's condition changes.",
+                "isQuiz": true,
+                "quizQuestion": "For a 540kg Thoroughbred in hard training, what approximate daily digestible energy target is appropriate?",
+                "quizOptions": [
+                    "50 MJ/day",
+                    "70 MJ/day (maintenance only)",
+                    "Approximately 98 MJ/day",
+                    "Over 200 MJ/day"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t08s02",
+                "stepNumber": 2,
+                "title": "Forage Allocation",
+                "instruction": "Assign a minimum of 1.5% of bodyweight in dry forage per day (540 kg × 0.015 = 8.1 kg of dry hay equivalent). Select high-quality Timothy or grass hay and allocate across 3+ hay presentations to prevent gut stasis between feeds.",
+                "tip": "More than 6 hours without forage access significantly increases gastric ulcer risk. Divide hay rations to maintain near-continuous nibbling.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t08s03",
+                "stepNumber": 3,
+                "title": "Concentrate Prescription",
+                "instruction": "Determine the energy gap between forage provision and total requirement. Bridge this gap with performance concentrate feed at manufacturer's recommended intake rates. Never exceed 2.5 kg concentrate per feeding to protect small intestinal starch handling capacity.",
+                "tip": "Exceeding single-meal starch limits causes hindgut acidosis — one of the most serious nutritional emergencies in racing horses.",
+                "isQuiz": true,
+                "quizQuestion": "What is the maximum safe concentrate amount per individual feeding for a Thoroughbred?",
+                "quizOptions": [
+                    "5 kg",
+                    "4 kg",
+                    "2.5 kg",
+                    "No limit if quality feed"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "id": "t08s04",
+                "stepNumber": 4,
+                "title": "Fat and Oil Addition",
+                "instruction": "Add 200ml of rice bran or flaxseed oil to the evening feed to provide a dense, slow-burning energy source. Fat supplementation over 3–4 weeks measurably increases fat oxidation capacity, sparing glycogen for late-race surges.",
+                "tip": "Introduce oil additions gradually over 7–10 days — sudden large additions can cause loose droppings and reduce digestibility of the base ration.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t08s05",
+                "stepNumber": 5,
+                "title": "Electrolyte and Supplement Schedule",
+                "instruction": "Schedule electrolyte supplementation 12–16 hours before hard work sessions to allow overnight absorption and absorption. Vitamin E (2,000 IU/day) should become a daily supplement for horses in consistent hard training to support muscle repair from oxidative stress.",
+                "tip": "Vitamin E deficiency is surprisingly common in stabled horses with no pasture access. Blood testing annually confirms whether supplementation is adequate.",
+                "isQuiz": true,
+                "quizQuestion": "When should electrolytes be administered relative to hard training sessions?",
+                "quizOptions": [
+                    "Immediately before training",
+                    "12–16 hours before training",
+                    "Only after training",
+                    "Only on race days"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t08s06",
+                "stepNumber": 6,
+                "title": "Assessment and Monitoring Plan",
+                "instruction": "Record the completed plan and establish monthly assessment criteria: body condition score (target 5–6/9), coat quality, appetite consistency, manure moisture and volume, and training performance metrics. A plan that isn't monitored cannot be improved.",
+                "tip": "Body condition scoring should always be done by the same person using the same method so scores remain comparable across months.",
+                "isQuiz": true,
+                "quizQuestion": "What body condition score range is optimal for a racehorse in full training?",
+                "quizOptions": [
+                    "2–3 (very lean)",
+                    "5–6 (moderate)",
+                    "7–8 (overweight)",
+                    "9 (obese)"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    },
+    {
+        "id": "task_009",
+        "title": "Mental Conditioning for Racing",
+        "difficulty": "Advanced",
+        "durationMinutes": 28,
+        "category": "Psychology",
+        "description": "Performance psychology applied to jockey and horse preparation. This module addresses focus techniques, pre-race visualization, anxiety management, and the building of racing confidence through systematic desensitization.",
+        "rewardPoints": 200,
+        "steps": [
+            {
+                "id": "t09s01",
+                "stepNumber": 1,
+                "title": "Pre-Race Visualization Protocol",
+                "instruction": "48 hours before a race, spend 15 minutes in quiet visualization: mentally ride the full race from gate break to post-race exit, experiencing each key decision point with vivid sensory detail. Include contingency scenarios such as losing position at the start or being blocked in a pocket.",
+                "tip": "Visualization activates the same neural pathways as physical performance. Athletes who visualize consistently show measurably improved decision-making under stress compared to those who do not.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t09s02",
+                "stepNumber": 2,
+                "title": "Arousal Regulation Technique",
+                "instruction": "Practice box breathing in the 30 minutes pre-race: inhale for 4 counts, hold for 4, exhale for 4, hold for 4. Repeat for 10 cycles. This technique reliably reduces pre-performance cortisol and brings arousal to the optimal mid-level zone — neither flat nor panicked.",
+                "tip": "Under-arousal (flat, disengaged) and over-arousal (anxious, unfocused) both impair performance significantly. The breathing technique targets the exact optimal midpoint.",
+                "isQuiz": true,
+                "quizQuestion": "What does the box breathing technique target in pre-race psychological preparation?",
+                "quizOptions": [
+                    "Maximizing heart rate",
+                    "Reducing arousal to optimal mid-level zone",
+                    "Inducing sleep",
+                    "Eliminating all race focus"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t09s03",
+                "stepNumber": 3,
+                "title": "Horse Desensitization Exercise",
+                "instruction": "Expose the horse progressively to race-day stimuli in training: crowd noise recordings, flag waving, parade ring activity with strangers, and trailer loading under time pressure. Each previously stressful stimulus should be introduced at low level and progressively increased.",
+                "tip": "Habituation — neutral response to previously frightening stimuli — is the goal. Never flood a horse with overwhelming stimulation hoping for rapid desensitization, as this typically produces increased fear sensitization instead.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t09s04",
+                "stepNumber": 4,
+                "title": "Process Goals vs Outcome Goals",
+                "instruction": "Before the race, define two process goals (things entirely within your control: 'maintain position on the home bend,' 'allow the horse to stride on the straight') and one contingency plan. Avoid setting outcome goals ('win the race') as these shift focus to uncontrollable variables.",
+                "tip": "Process goal focus during competition is empirically associated with better performance than outcome focus, across virtually every sport studied.",
+                "isQuiz": true,
+                "quizQuestion": "Why are process goals more effective than outcome goals during race preparation?",
+                "quizOptions": [
+                    "Outcome goals are illegal",
+                    "Process goals focus attention on controllable behaviors, improving execution",
+                    "Outcome goals require too much calculation",
+                    "Process goals require fewer decisions"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t09s05",
+                "stepNumber": 5,
+                "title": "Post-Performance Debriefing",
+                "instruction": "Within one hour after every race or major training session, conduct a structured 5-minute self-debriefing: What went to plan? What differed from plan and why? What decision would you make differently with knowledge of those circumstances? Write one actionable improvement point.",
+                "tip": "Unexamined experience rarely produces learning. Systematic debriefing transforms race experience into performance improvement at a rate that unmotivated experience cannot match.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t09s06",
+                "stepNumber": 6,
+                "title": "Confidence Anchor Technique",
+                "instruction": "Identify the three best performance moments from the previous month — specific races, exercises, or training sessions where everything clicked. Before a race, take 90 seconds to mentally replay those moments with full sensory recall. This primes the neural patterns of successful execution immediately before going under starter's orders.",
+                "tip": "Confidence is a trained skill, not a personality trait. Systematic rehearsal of successful memory anchors builds genuine confidence that is accessible on demand.",
+                "isQuiz": true,
+                "quizQuestion": "What is the purpose of the 'confidence anchor' technique used immediately before a race?",
+                "quizOptions": [
+                    "To forget previous mistakes",
+                    "To prime neural patterns of successful execution through successful memory recall",
+                    "To set outcome goals",
+                    "To reduce visualization effort"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    },
+    {
+        "id": "task_010",
+        "title": "Injury Prevention and Screening",
+        "difficulty": "Intermediate",
+        "durationMinutes": 24,
+        "category": "Veterinary",
+        "description": "Learn the systematic daily screening protocol that identifies early injury indicators before they become career-threatening. This skill saves horses and saves money.",
+        "rewardPoints": 150,
+        "steps": [
+            {
+                "id": "t10s01",
+                "stepNumber": 1,
+                "title": "Observation Assessment",
+                "instruction": "Before approaching the horse, observe from 5 meters without handling: posture in the stable (is weight distributed evenly?), ear position (alert vs. dull?), eye brightness, and facial expression. This non-contact scan often reveals the most valuable information.",
+                "tip": "A horse lying down more than normal or unable to rise comfortably requires immediate veterinary attention, not a training session.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t10s02",
+                "stepNumber": 2,
+                "title": "Limb Symmetry Check",
+                "instruction": "Lead the horse in a straight line toward you for 20 meters at a walk and trot. Any deviation of the head from a level plane on hoof impact — called 'head nod' — indicates weight-bearing discomfort in the limb associated with the head's downward movement.",
+                "tip": "Head nods toward the sound limb — the horse wants to load the non-painful side. 'Nods down on the good side' is the mnemonic: a right-leg problem produces head nod toward the left (right foot lands, horse tries to spare it by nodding left).",
+                "isQuiz": true,
+                "quizQuestion": "If a horse 'nods down' toward the left foreleg during trot-up, which leg is most likely experiencing discomfort?",
+                "quizOptions": [
+                    "Left foreleg",
+                    "Right foreleg",
+                    "Right hindleg",
+                    "Left hindleg"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t10s03",
+                "stepNumber": 3,
+                "title": "Digital Pulse Assessment",
+                "instruction": "Place two fingers in the groove behind the pastern, on the medial aspect of each fetlock, and feel for the digital pulse. A strong, bounding digital pulse compared to a normally barely-perceptible pulse indicates active inflammation in the hoof — potentially laminitis in early stages.",
+                "tip": "A bounding digital pulse is one of the earliest detectable signs of impending laminitis. Early detection and immediate management may prevent rotation of the coffin bone — an irreversible complication.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t10s04",
+                "stepNumber": 4,
+                "title": "Back and Pelvis Palpation",
+                "instruction": "Apply firm thumb pressure along both sides of the thoracolumbar spine at 5cm intervals from withers to croup. A flinch, drop of the back, or aggressive reaction indicates localized pain. Repeat over the sacroiliac region with rocking pressure applied to each tuber coxae.",
+                "tip": "Hindquarter asymmetry visible when viewed from directly behind the horse (one hip higher than the other) often indicates sacroiliac joint dysfunction or muscle imbalance from compensatory movement patterns.",
+                "isQuiz": true,
+                "quizQuestion": "What does a visible hip height asymmetry (one side higher) when viewing from behind most commonly suggest?",
+                "quizOptions": [
+                    "Normal conformation variation only",
+                    "Sacroiliac joint dysfunction or compensatory muscle imbalance",
+                    "Poor bodyweight",
+                    "Over-training of the sound side"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "id": "t10s05",
+                "stepNumber": 5,
+                "title": "Flexion Test Basics",
+                "instruction": "Flex the lower limb of each foreleg by supporting the fetlock and pressing the knee firmly upward for 60 seconds. Release and immediately trot the horse away. Any worsening of gait in the first 6 strides indicates joint pain in the structures stressed by flexion.",
+                "tip": "Mild flexion test positives are common in older, heavily-raced horses. The key is change from baseline — a new positive or a worsening of a mild positive warrants urgent veterinary workup.",
+                "isQuiz": false,
+                "quizQuestion": "",
+                "quizOptions": [],
+                "correctAnswer": -1
+            },
+            {
+                "id": "t10s06",
+                "stepNumber": 6,
+                "title": "Documentation and Action Threshold",
+                "instruction": "Record all findings using a standardized screening form with numerical scales (1–4) for each parameter. Establish clear action thresholds: any score of 3 or above triggers veterinary consultation before training continues. Consistency of recording allows detection of gradual trends that single assessments miss.",
+                "tip": "The value of screening is cumulative — a single session's data point is far less informative than a trend across 20 consecutive sessions. The habit of recording is more important than the precision of any one assessment.",
+                "isQuiz": true,
+                "quizQuestion": "Why is consistent recording of injury screening scores more valuable than single-session data?",
+                "quizOptions": [
+                    "It creates a paper trail for legal purposes",
+                    "Trends across many sessions detect gradual worsening invisible to individual assessments",
+                    "To compare with other trainers",
+                    "To justify veterinary consultation costs"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    }
+]

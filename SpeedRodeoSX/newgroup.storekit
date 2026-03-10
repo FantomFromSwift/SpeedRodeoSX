@@ -1,0 +1,84 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "1D268AD7",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "76970511",
+      "localizations" : [
+        {
+          "description" : "Desert Gold",
+          "displayName" : "Desert Gold",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "desertGold",
+      "referenceName" : "desertGold",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "967E8238",
+      "localizations" : [
+        {
+          "description" : "Royal Stable",
+          "displayName" : "Royal Stable",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "royalStable",
+      "referenceName" : "royalStable",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "8A212F8B",
+      "localizations" : [
+        {
+          "description" : "Midnight Track",
+          "displayName" : "Midnight Track",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "midnightTrack",
+      "referenceName" : "midnightTrack",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
