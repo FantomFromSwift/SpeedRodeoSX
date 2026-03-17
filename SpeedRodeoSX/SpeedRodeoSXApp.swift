@@ -31,11 +31,12 @@ struct SpeedRodeoSXApp: App {
     
     var body: some Scene {
         WindowGroup {
-            MainViewSX()
+            RootViewMC()
                 .environment(iapManager)
                 .environment(themeManager)
                 .preferredColorScheme(.dark)
                 .id(themeManager.currentTheme)
+                .environmentObject(LoaderViewModel())
         }
         .modelContainer(sharedModelContainer)
     }
@@ -48,13 +49,64 @@ class AppDelegate: UIResponder, UIApplicationDelegate, MessagingDelegate, UNUser
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
 
+        FirebaseApp.configure()
         SKPaymentQueue.default().add(IAPManagerVE.shared)
         UNUserNotificationCenter.current().delegate = self
         Messaging.messaging().delegate = self
+        Messaging.messaging().isAutoInitEnabled = true
+        print("✅ Firebase configured")
         return true
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
         SKPaymentQueue.default().remove(IAPManagerVE.shared)
+    }
+    
+    static var orientationLock = UIInterfaceOrientationMask.portrait {
+        didSet {
+            if #available(iOS 16.0, *) {
+                UIApplication.shared.connectedScenes.forEach { scene in
+                    if let windowScene = scene as? UIWindowScene {
+                        windowScene.requestGeometryUpdate(.iOS(interfaceOrientations: orientationLock))
+                    }
+                }
+                UIViewController.attemptRotationToDeviceOrientation()
+            } else {
+                if orientationLock == .landscape {
+                    UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orient")
+                } else {
+                    UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orient")
+                }
+            }
+        }
+    }
+    
+    func application(_ application: UIApplication,
+                     didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("❌ Failed to register for APNs: \(error)")
+    }
+    
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let apns = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
+        print("📬 APNs token: \(apns)")
+
+        UserDefaults.standard.set(true, forKey: "apnsReady")
+        UserDefaults.standard.set(apns, forKey: "apnsTokenHex")
+        NotificationCenter.default.post(name: .apnsTokenDidUpdate, object: nil, userInfo: ["apns": apns])
+
+        Messaging.messaging().apnsToken = deviceToken
+    }
+}
+
+extension AppDelegate {
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        guard let token = fcmToken, !token.isEmpty else {
+            print("⚠️ didReceiveRegistrationToken empty")
+            return
+        }
+        UserDefaults.standard.set(token, forKey: "fcmToken")
+        print("🔥 FCM token (delegate): \(token)")
+        NotificationCenter.default.post(name: .fcmTokenDidUpdate, object: nil, userInfo: ["token": token])
     }
 }
